@@ -1,5 +1,4 @@
-
-table, th, td 
+/* table, th, td 
 {
     border: 1px solid black;
 }
@@ -7,4 +6,85 @@ table, th, td
 table
 {
     width: 100%;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.menu
+{
+    margin-top: 80px;
+    border-top: 1px solid black;
+    border-bottom: 1px dashed black;
+    /* padding: 30px 0px; */
+    /* background-color: grey; */
+}
+
+/* .menu-flex .logo
+{
+    float: left;
+}
+.menu-flex .list-menu
+{
+    float: left;
+}
+.menu-flex .search
+{
+    float: left;
+} */
+
+
+.menu-flex{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: grey; */
+    padding: 30px 0px;
+}
+
+.list-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo{
+    /* background-color: brown; */
+    font-weight: 8000;
+    /* padding: 30px;
+    margin-top: 50px; */
+}
+
+.center{
+    text-align: center;
+}
+
+.content-header{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.content-article{
+    padding: 30px 180px 180px;
+}
+
+.content{
+    padding: 0px 80px;
 }
